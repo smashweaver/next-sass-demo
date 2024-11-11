@@ -1,5 +1,5 @@
 {
-  "name": "next-tours",
+  "name": "next-sass-demo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@smashweaver/resetcss": "^1.0.1",
+    "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
+    "react-dom": "19.0.0-rc-66855b96-20241106"
+  },
+  "devDependencies": {
+    "sass": "^1.80.6"
+  },
+  "volta": {
+    "node": "20.18.0"
   }
 }
