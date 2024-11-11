@@ -1,5 +1,5 @@
-import { inter, lato, openSans } from "@/ui/fonts";
-import "@/ui/globals.scss";
+import { inter, lato, openSans } from "./ui/fonts";
+import "./ui/globals.scss";
 
 export const metadata = {
   title: "Next Sass Demo",
@@ -9,7 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${openSans.variable}`}>{children}</body>
+      <body className={`${openSans.variable}`}>
+        <div className="container">{children}</div>
+      </body>
     </html>
   );
 }
