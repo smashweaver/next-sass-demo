@@ -1,6 +1,6 @@
-import SvgIcon from "../svg-icon";
+import SvgIcon from "../shared/svg-icon";
 
-const UserNav = () => {
+const User = () => {
   return (
     <nav className="user-nav">
       <div className="user-nav__icon-box">
@@ -23,4 +23,4 @@ const UserNav = () => {
   );
 };
 
-export default UserNav;
+export default User;

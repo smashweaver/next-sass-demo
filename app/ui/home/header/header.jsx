@@ -1,14 +1,13 @@
-import SvgIcon from "../svg-icon";
 import Logo from "./logo";
-import SearchForm from "./search-form";
-import UserNav from "./user-nav";
+import Search from "./search";
+import User from "./user";
 
 const Header = () => {
   return (
     <header className="header">
       <Logo />
-      <SearchForm />
-      <UserNav />
+      <Search />
+      <User />
     </header>
   );
 };

@@ -1,4 +1,4 @@
-const Cta = () => {
+const CallToAction = () => {
   return (
     <div className="cta">
       <h2 className="cta__book-now">
@@ -12,4 +12,4 @@ const Cta = () => {
   );
 };
 
-export default Cta;
+export default CallToAction;

@@ -1,5 +1,5 @@
 import { inter, lato, openSans } from "./ui/fonts";
-import "./ui/globals.scss";
+import "./ui/styles/globals.scss";
 
 export const metadata = {
   title: "Next Sass Demo",

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import SvgIcon from "../svg-icon";
+import SvgIcon from "../shared/svg-icon";
 
 const SideBar = () => {
   return (

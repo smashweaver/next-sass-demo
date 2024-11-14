@@ -1,4 +1,4 @@
-const UserReviews = () => {
+const Reviews = () => {
   return (
     <div className="user-reviews">
       <figure className="review">
@@ -39,4 +39,4 @@ const UserReviews = () => {
   );
 };
 
-export default UserReviews;
+export default Reviews;
