@@ -1,4 +1,4 @@
-import { inter, lato, openSans } from "./ui/fonts";
+import { openSans } from "./ui/fonts";
 import "./ui/styles/globals.scss";
 
 export const metadata = {
