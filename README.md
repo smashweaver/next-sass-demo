@@ -1,4 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js with SASS Demo
+
+A learning project exploring Next.js integration with SASS/SCSS for styling.
+
+## Purpose
+
+This project demonstrates:
+- Next.js app router setup
+- SASS/SCSS integration
+- Modern CSS practices
+- Responsive design patterns
+
+## Tech Stack
+
+- Next.js 14
+- SASS/SCSS
+- JavaScript
 
 ## Getting Started
 
@@ -8,29 +24,72 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+next-sass-demo/
+├── app
+│   ├── icon.png
+│   ├── layout.js
+│   ├── page.js
+│   └── ui
+│       ├── fonts.js
+│       ├── home
+│       │   ├── content
+│       │   │   ├── call-to-action.jsx
+│       │   │   ├── detail
+│       │   │   │   ├── description.jsx
+│       │   │   │   └── reviews.jsx
+│       │   │   ├── hotel
+│       │   │   │   ├── gallery.jsx
+│       │   │   │   └── overview.jsx
+│       │   │   └── sidebar.jsx
+│       │   ├── header
+│       │   │   ├── header.jsx
+│       │   │   ├── logo.jsx
+│       │   │   ├── search.jsx
+│       │   │   └── user.jsx
+│       │   └── shared
+│       │       └── svg-icon.jsx
+│       └── styles
+│           ├── _base.scss
+│           ├── _components.scss
+│           ├── globals.scss
+│           ├── _layout.scss
+│           └── _variables.scss
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+├── public
+│   └── img
+│       ├── chevron-thin-right.svg
+│       ├── favicon.png
+│       ├── hotel-1.jpg
+│       ├── hotel-2.jpg
+│       ├── hotel-3.jpg
+│       ├── jason.jpg
+│       ├── logo.png
+│       ├── sprite.svg
+│       ├── user-1.jpg
+│       ├── user-2.jpg
+│       ├── user-3.jpg
+│       ├── user-4.jpg
+│       ├── user-5.jpg
+│       ├── user-6.jpg
+│       └── user.jpg
+└── README.md
+```
 
-## Learn More
+## Learning Notes
 
-To learn more about Next.js, take a look at the following resources:
+[You could add any interesting discoveries, challenges, or insights you gained while building this]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Resources
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [SASS Documentation](https://sass-lang.com/documentation)
